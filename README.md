@@ -87,7 +87,7 @@
 ```
 open your browser chrome or firefox
 write in the url bar:
-https://mail-generation-fguxvzvh6a-uc.a.run.app
+https://mail-generation-fguxvzvh6a-uc.a.run.app/generate?prompt=to&n_gen=3
 ```
 <img src="imgs/web.png" alt="browser result">
 
@@ -102,13 +102,13 @@ https://mail-generation-fguxvzvh6a-uc.a.run.app/docs
 # run the service locally
 ```
 run in the terminal
-git clone ""
-cd XXXXXXX
+git clone https://github.com/zaghlol94/mail-generation-service.git
+cd mail-generation-service
 eport $PORT=5000
 sudo docker build -t email .
 sudo docker run -p 5000:5000 email
 open browser and write in the url:
-http://0.0.0.0:5000/predict?prompt=tomaten&n_gen=5&temperature=0.8&top_k=20&top_p=0.8&token_count=25
+http://0.0.0.0:5000/generate?prompt=to&n_gen=3
 or
 http://0.0.0.0:5000/docs
 ```

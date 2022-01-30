@@ -87,17 +87,17 @@
 ```
 open your browser chrome or firefox
 write in the url bar:
-http://0.0.0.0:5000/predict?prompt=tomaten&n_gen=5&temperature=0.8&top_k=20&top_p=0.8&token_count=25
+https://mail-generation-fguxvzvh6a-uc.a.run.app
 ```
-<img src="imgs/browser.png" alt="browser result">
+<img src="imgs/web.png" alt="browser result">
 
 # run swagger documentation of the deployed service
 ```
 open your browser chrome or firefox
 write in the url bar:
-http://0.0.0.0:5000/docs
+https://mail-generation-fguxvzvh6a-uc.a.run.app/docs
 ```
-<img src="imgs/swagger.png" alt="swagger result">
+<img src="imgs/swagger-api.png" alt="swagger result">
 
 # run the service locally
 ```

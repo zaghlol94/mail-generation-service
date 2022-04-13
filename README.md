@@ -104,7 +104,7 @@ https://mail-generation-fguxvzvh6a-uc.a.run.app/docs
 run in the terminal
 git clone https://github.com/zaghlol94/mail-generation-service.git
 cd mail-generation-service
-eport $PORT=5000
+export $PORT=5000
 sudo docker build -t email .
 sudo docker run -p 5000:5000 email
 open browser and write in the url:
